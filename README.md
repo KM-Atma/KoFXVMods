@@ -2,6 +2,8 @@
 
 ## Mod Details
 
+### Throw Protect
+
 The mod is to remove reversal normal throws from hard knockdowns and air resets in KoFXV, while retaining them on quick recovery making it more in line with other KoF games. 1 frame command throws are still valid reversals(like other KoF games).
 
 If you intend to play online with the mod - crossplay must be disabled and both players must have the mod else you will desync.
