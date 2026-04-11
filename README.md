@@ -39,6 +39,8 @@ If you intend to play online with the mod both players must have the mods else y
 
 ## Install Instructions
 
+### UE4SS mods
+
 This mod requires UE4SS v3.0.1 experimental. This can be obtained from the release page here: https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest
 
 You only need the standard release, it should be named something similar to the image below
@@ -47,28 +49,37 @@ You only need the standard release, it should be named something similar to the 
 
 UE4SS provides a dwmapi.dll and a ue4ss folder, these need to be extracted and placed next to the file KoFXV-Win64-Shipping.exe
 
-An example for the directory is something like this: ..\steamapps\common\THE KING OF FIGHTERS XV\KOFXV\Binaries\Win64 - Do not place it next to the KOFXV_Steam.exe or similar found in the root THE KING OF FIGHTERS XV install folder.
+An example for the directory is something like this: ...\steamapps\common\THE KING OF FIGHTERS XV\KOFXV\Binaries\Win64 - Do not place it next to the KOFXV_Steam.exe or similar found in the root THE KING OF FIGHTERS XV install folder.
 
 Image example of how the folder should look
 
 <img width="1990" height="154" alt="image" src="https://github.com/user-attachments/assets/1e3cab4b-d7b9-402c-9543-cb624c29519b" />
 
-Once you have UE4SS in place, grab the latest version of the mod from the Github Releases section ThrowProtect.zip: https://github.com/KM-Atma/ThrowProtect/releases
+Once you have UE4SS in place, grab the latest version of the mod from: 
 
-The release will contain a ThrowProtect folder and a mods.txt file.
+The release will contain a ue4ss folder and a ~mods folder.
 
-In the ue4ss folder that you placed within the folder earlier there will be a Mods folder, extract the release inside of this mod folder and overwrite the existing mods.txt file.
+You want to merge the ue4ss folder from the mod with the one you have installed earlier. Within the ue4ss folders there will be a Mods folder, and a mods.txt file alongside the mods. You want to overwrite the mods.txt file from ue4ss with the one contained within the mod.
 
-Directory example: ..\steamapps\common\THE KING OF FIGHTERS XV\KOFXV\Binaries\Win64\ue4ss\Mods
+<img width="950" height="396" alt="Screenshot 2026-04-11 144418" src="https://github.com/user-attachments/assets/5295612b-3854-45f2-8962-d651ecca224b" />
 
-<img width="1994" height="299" alt="image" src="https://github.com/user-attachments/assets/43d35e67-5bee-48b7-9da7-fa49b1669078" />
-
-The Mods folder should now look like this
+The Mods folder should now look like this. Directory example: ..\steamapps\common\THE KING OF FIGHTERS XV\KOFXV\Binaries\Win64\ue4ss\Mods
 
 The mods.txt file should look like this
 
-<img width="402" height="303" alt="image" src="https://github.com/user-attachments/assets/d2c3747e-b979-4083-9f18-a99d11a36fa4" />
+<img width="436" height="380" alt="Screenshot 2026-04-11 144657" src="https://github.com/user-attachments/assets/015c435c-703a-4ac9-8361-d04b1003ae9f" />
 
-You can enable other mods/install other mods using ue4ss by modifying this file, this is just set up to only use the ThrowProtect mod for ease of use.
+You can enable other mods/install other mods using ue4ss by modifying this file, this is just set up to only use the mods included here. Mods can be independently disabled here by changing the 1 to a 0.
 
-You can check if it works in game by setting up a throw reversal in training mode and testing.
+### .pak mods
+
+The ~mods folder contains the .pak mods. These mods are direct changes to character files from the game and are not externally applied. These can be installed by placing the ~mods folder into the Paks directory. 
+Example directory: ...\steamapps\common\THE KING OF FIGHTERS XV\KOFXV\Content\Paks
+
+<img width="993" height="368" alt="Screenshot 2026-04-11 144943" src="https://github.com/user-attachments/assets/7ac5dae1-2c40-4d8f-bcf1-e20bf094caba" />
+
+When installed the paks directory should look as such. These mods are not as easily uniquely enabled/disabled. To disable these mods you must delete the .pak and .sig files related to them.
+
+## Testing
+
+You can test in game by looking at character walk speeds, checking st.CD properties, checking if a reversal throw works from hard knockdown, checking if you receive the higher max meter, and checking the ability to stop from a run.
