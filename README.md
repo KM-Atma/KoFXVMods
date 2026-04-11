@@ -63,7 +63,8 @@ You want to merge the ue4ss folder from the mod with the one you have installed 
 
 <img width="950" height="396" alt="Screenshot 2026-04-11 144418" src="https://github.com/user-attachments/assets/5295612b-3854-45f2-8962-d651ecca224b" />
 
-The Mods folder should now look like this. Directory example: ..\steamapps\common\THE KING OF FIGHTERS XV\KOFXV\Binaries\Win64\ue4ss\Mods
+The Mods folder should now look like this.
+Directory example: ..\steamapps\common\THE KING OF FIGHTERS XV\KOFXV\Binaries\Win64\ue4ss\Mods
 
 The mods.txt file should look like this
 
