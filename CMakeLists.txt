@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.18)
+project(MyMods)
+add_subdirectory(RE-UE4SS)
+add_subdirectory(ThrowProtect)
+add_subdirectory(MaxC3)
+add_subdirectory(RunLock)
