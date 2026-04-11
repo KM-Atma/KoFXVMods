@@ -53,7 +53,7 @@ An example for the directory is something like this: ...\steamapps\common\THE KI
 
 Image example of how the folder should look
 
-<img width="1990" height="154" alt="image" src="https://github.com/user-attachments/assets/1e3cab4b-d7b9-402c-9543-cb624c29519b" />
+<img width="876" height="276" alt="Screenshot 2026-04-11 145407" src="https://github.com/user-attachments/assets/b3bb98b0-109b-4237-95f4-1d22ebc49564" />
 
 Once you have UE4SS in place, grab the latest version of the mod from: 
 
