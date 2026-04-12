@@ -4,6 +4,8 @@
 
 https://gamebanana.com/mods/668651
 
+Alternate: https://drive.google.com/file/d/1l_83tbon7rG8focYk0JCQPYUPUrmJE_I/view
+
 ## Mod Details
 
 ### Throw Protect
