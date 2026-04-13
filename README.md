@@ -6,6 +6,8 @@ https://gamebanana.com/mods/668651
 
 Alternate: https://drive.google.com/file/d/1l_83tbon7rG8focYk0JCQPYUPUrmJE_I/view
 
+Mod updated 13/04/26 as the .pak files were not appropriately separated for all characters.
+
 ## Mod Details
 
 ### Throw Protect
