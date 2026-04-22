@@ -6,6 +6,7 @@ https://gamebanana.com/mods/668651
 
 Alternate: https://drive.google.com/file/d/1l_83tbon7rG8focYk0JCQPYUPUrmJE_I/view
 
+Mod updated 22/04/26 fixing st.CD proration to work the same as j.CD proration due to removal of wall splat.
 Mod updated 13/04/26 as the .pak files were not appropriately separated for all characters. Shermie has also had her auto/rush combo removed now as an old file would override this on the .pak for CD's.
 
 ## Mod Details
